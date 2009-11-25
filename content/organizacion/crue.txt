@@ -1,0 +1,23 @@
+---
+title:      Conferencia de Rectores de Universidades Españolas
+created_at: 2009-09-25 10:55:39.084955 +02:00
+filter:
+  - erb
+  - textile
+---
+h1. <%= h(@page.title) %>
+
+p. La Conferencia de Rectores de las Universidades Españolas es una asociación sin ánimo de lucro formada por universidades públicas y privadas españolas. Actualmente están asociadas 50 universidades públicas y 24 privadas.
+
+p. Constituida en 1994 con el objetivo de servir de lugar de encuentro, de debate y reflexión a las universidades españolas, de acuerdo a sus descargar documentoEstatutos la CRUE tiene entre sus funciones:
+
+    * **Impulsar** la promoción y desarrollo de la educación superior y la investigación universitaria
+    * **Fomentar** la cooperación entre las universidades españolas y extranjeras, así como con todas aquellas instituciones que contribuyan al mejor desarrollo de su actividad
+    * **Intercambiar** información, promover estudios, informes y recomendaciones que redunden en una mayor y más eficaz cooperación con las administraciones públicas
+    * **Reforzar** la proyección social de la universidad y su compromiso con la sociedad.
+
+p. La CRUE promueve, en definitiva, la reflexión sobre las finalidades y problemas universitarios y orienta sus planteamientos con criterios que van más allá de los intereses de sectores o grupos particulares. Se pretende que sea un cauce ágil, efectivo y representativo de las instituciones universitarias españolas que facilite tanto la cooperación mutua como con otras conferencias de rectores internacionales.
+
+p. La CRUE, por otro lado, hace entrega, desde 2005 y cada dos años, de La Medalla de Honor CRUE a dos personalidades que destacan por su esfuerzo aportaado al mundo universitario, su brillante trayectoria académica o su contribución al mundo educativo.
+
+p. Más información en "http://www.crue.org":http://www.crue.org

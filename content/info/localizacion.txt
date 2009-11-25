@@ -1,0 +1,11 @@
+---
+title:      Dónde y cuando
+created_at: 2009-09-24 12:35:45.008420 +02:00
+filter:
+  - erb
+  - textile
+---
+h1. <%= h(@page.title) %>
+
+p. Las Jornadas R–Conf2009 serán en la Universidad de Murcia en la Facultad de Informática, los días 26 y 27 de Noviembre del 2009. La asistencia es totalmente abierta. 
+

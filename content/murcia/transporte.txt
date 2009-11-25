@@ -1,0 +1,24 @@
+---
+title:      Transporte público en Murcia
+created_at: 2009-09-24 14:28:47.073573 +02:00
+filter:
+  - erb
+  - textile
+---
+h1. <%= h(@page.title) %>
+
+h3. Autobús
+
+p. La línea que lleva al Campus de Espinardo es la 39
+"http://www.latbus.com/":http://www.latbus.com/
+
+h3. Tranvía
+
+p. De Lunes a Viernes de 7.20h a 22.30h con una frecuencia de 10 minutos
+"http://www.tranvimur.es/":http://www.tranvimur.es/
+
+h3. Taxi
+
+p. 968 24 88 00
+"http://www.radiotaximurcia.com/":http://www.radiotaximurcia.com/
+

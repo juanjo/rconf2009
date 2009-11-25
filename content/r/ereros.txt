@@ -1,0 +1,15 @@
+---
+title:      Grupo de usuarios de R en castellano
+created_at: 2009-09-24 13:00:16.321980 +02:00
+filter:
+  - erb
+  - textile
+---
+h1. <%= h(@page.title) %>
+
+p. La comunidad de usuarios de R es cada vez más extensa. Con la organización de estas jornadas, nos gustaría empezar a coordinar un grupo de usuarios hispanohablantes. 
+
+p. Con la formación de esta comunidad pretendemos crear un espacio de intercambio de recursos. Queremos que sea un espacio donde podamos intercambiar nuestros cursos de R, nuestros trozos de código, intercambiar ofertas de empleo e incluso hacer algo de desarrollo.
+
+p. En estas jornadas esperamos juntarnos, charlar, intercambiar ideas y en definitiva empezar a crear un proyecto común a los usuarios de R hispanohablantes.
+

@@ -1,0 +1,23 @@
+---
+title:      Instrucciones
+created_at: 2009-09-24 12:35:28.207294 +02:00
+filter:
+  - erb
+  - textile
+---
+
+h2. Instrucciones generales
+
+* Lo primero de todo: ¡Regístrate!
+* A la dirección de correo que especifiques te podrá llegar información adicional sobre la RCONF2009.
+* Si tienes alguna duda sobre el proceso de registro, escríbenos a <%= link_to 'rconf2009@ereros.org', 'mailto:rconf2009@ereros.org', :title => 'Enviar correo a rconf2009@ereros.org' %>
+
+h2. Comunicaciones
+
+* La plantilla para la presentación del artículo: es la correspondiente a <%= link_to 'The R Journal', 'http://journal.r-project.org/submissions.html' %>
+* Las comunicaciones deberán ser enviados a <%= link_to 'comunicaciones2009@ereros.org', 'mailto:comunicaciones2009@ereros.org' %>
+* El idioma del evento es el castellano aunque se aceptarán comunicaciones en inglés
+* Los resúmenes de las comunicaciones presentadas serán evaluados y posteriormente aceptados como mínimo por dos integrantes del Comité Científico del evento.
+* Los resúmenes son publicados en la web.
+* Todas las comunicaciones aceptadas y presentadas durante las Jornadas se recogerán en documento electrónico que tendrá asignado un código ISBN (International Standard Book Number) y podrá descargrase libremente de la página de eReros.
+

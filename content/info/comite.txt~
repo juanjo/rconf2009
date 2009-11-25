@@ -1,0 +1,49 @@
+---
+title:      Organización I Conferencia Hispana R-Project
+created_at: 2009-09-24 12:32:38.371803 +02:00
+filter:
+  - erb
+  - textile
+---
+p(title). <%= h(@page.title) %>
+
+
+h2. Comité científico
+
+* *Manuel Muñoz Márquez (Dirección)*
+Universidad de Cádiz
+ 
+* *Carlos J. Gil Bellosta*
+Empresa Everis
+ 
+* *Olivier Núñez*
+Consultor autónomo, empresa Iber-stat
+ 
+* *Ramón Díaz-Uriarte*
+Investigador, Programa de Biología Estructural y Biocomputación, Centro Nacional de Investigaciones Oncológicas (CNIO), Madrid y Prof. Asociado Dept. de Bioquímica Universidad Autónoma de Madrid
+ 
+* *José Antonio Palazón Ferrando*
+Universidad de Murcia
+ 
+* *Virgilio Gómez-Rubio*
+Profesor (ayudante doctor) en la UCLM, Albacete.
+ 
+* *Fernando Fernández Palacín*
+
+
+
+
+h2. Comité organizador
+
+* *José Antonio Palazón (Coordinador)*
+Universidad de Murcia
+
+* *Juan José Vidal Agustín*
+Universidad de Murcia
+
+* *Patricia García González*
+* *Fernando Cánovas*
+
+* *Miguela Iniesta Moreno*
+Universidad de Murcia
+

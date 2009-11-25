@@ -1,0 +1,47 @@
+---
+title:      Programa
+created_at: 2009-09-24 13:20:26.473538 +02:00
+filter:
+  - erb
+  - textile
+---
+h1. Programa de las jornadas
+
+
+
+h2. Jueves 26 de Noviembre
+
+<ul id="program">
+  <li>10:00 Acreditación</li>
+  <li>10:30 Inaguración</li>
+  <li>11:00 R en la docencia Universitaria (Manuel Muñoz Márquez)</li>
+  <li>12:00 Café Networking!</li>
+  <li>12:30 Al-R-ededores (Carlos Gil Bellosta)</li>
+
+
+  <li>16:00 Taller: Migrando de SPSS a R: Rcommander (Antonio Maurandi López)</li>
+  <li>18:00 Taller: R para usuarios de R (Fernando Cánovas García)</li>
+</ul>
+
+h2. Viernes 27 de Noviembre
+
+<ul id="program">
+  <li>09:00 Comunicaciones
+    <ul id='program'>
+        <li>Corrección de Datos de Ingesta Dietética por Calibración Mediante la Utilización de R en la Cohorte Epic-Granada (José Miguel Contreras García)</li>
+        <li>Softwares implementados para aplicar la técnica de calibración en muestreos finitos (José Miguel Contreras García)</li>
+        <li>Interfaz Java para distribución de código en R (Roldán Galán)</li>
+        <li>Integración de R en software libre de análisis del rendimiento deportivo multiplataforma y en entorno cliente-servidor (Xavi de Blas)</li>
+        <li>Estudios (bio)estadísticos con software libre: R y Epilinux (Miguel Angel Rodriguez Muinosa)</li>
+     </ul>
+   </li>
+
+  <li>11:00 Café Networking!</li>
+  <li>11:30 Mesa redonda: Creación de una comunidad para la creación de materiales.</li>
+  <li>13:00 Reunión de trabajos de proyectos y grupos</li>
+
+
+  <li>15:30 Taller: R-Commander: Introducción y creación de extensiones (Manuel Muñoz Márquez) </li>
+  <li>17:30 Taller: Sweave Odfweave (José Antonio Palazón Ferrando)</li>
+  <li>18:30 Conclusiones y clausura</li>
+</ul>

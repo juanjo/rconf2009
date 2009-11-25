@@ -1,0 +1,21 @@
+---
+title: I Conferencia R-Project Hispana
+created_at:  2008-08-02 14:06:40.000000 -06:00
+filter:
+  - erb
+  - textile
+---
+h1. Jornadas sobre R-Project
+
+p. Con el crecimiento de la comunidad internacional de usuarios de R se hace imprescindible concectar a los usuarios de habla hispana. Muchos son los proyectos que se desarrollan por castellanoparlates y mucha es la ducumentación que se genera a diario en esta lengua. Desafortunadamente no existe una comunidad organizada que optimize los esfuerzo y canalize la colaboración.
+
+p. Estas jornadas se plantean como una reunión de distintos profesionales que tiene en común:
+
+* El uso de R como instrumento científico o docente
+* La necesidad de conectarse con redes de trabajo en R
+* Interés por el desarrollo de materiales (textos o librerías)
+* Deseo de colaborar en proyectos ya iniciados
+* Participar en la traducción de materiales desarrollados
+* Crear grupos de trabajo de distintas disciplinas
+
+p. Las actividades de las Jornadas de usuarios de R en español tiene el denominador común de constitución de grupos de trabajo y la puesta en común de materiales desarrollados en la lengua de Cervantes y dispersos en la red. 

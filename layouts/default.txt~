@@ -1,0 +1,151 @@
+---
+extension: html
+filter:    
+  - erb
+  - basepath
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>I Conferencia Hispana R-Project 2009 :: <%= @page.title %></title>
+   <meta name="author" content="<%= @page.author %>" />
+
+   <!--- Blueprint CSS Framework -->
+   <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection">
+   <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print">
+   <!--[if IE]>
+      <link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection">
+   <![endif]-->
+
+   <!-- CodeRay syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/coderay.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/site.css" type="text/css" media="screen, projection" />
+</head>
+<body>
+
+<div id='topbar'>
+  <div class="container">
+    <div class="column span-24 first last">
+      <p>26 + 27 de Noviembre // Universidad de Murcia</p>
+    </div>
+  </div>
+</div>
+
+
+<div id='subtopbar'>
+  <div class="container">
+    <div class="column span-24 first last" id='ererosdetail'></div>
+  </div>
+
+</div>
+
+
+<div id='menutopbar'>
+  <div class="container">
+
+    <div class="column span-4 first">
+      <img src='/images/star.png' alt='Ereros 2009' style='z-index: 10000; position: absolute;' />
+      &nbsp;
+    </div>
+
+    <div class="column span-20 last" id='menutop'>
+      <ul>
+        <li><%= link_to 'Inicio', '/' %></li>
+        <li><%= link_to 'Noticias', '/#' %></li>
+        <li><%= link_to 'Programa', '/ponencias/index.html' %></li>
+        <li><%= link_to 'R-Project', '/r/index.html' %></li>
+        <li><%= link_to 'RCONF2009', '/info/index.html' %></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+
+<div id='bannertopbar'>
+  <div class='container'>
+    <div class="column span-24 first last" id='bannerama'>
+      <div id='bannercontent'>
+        <div class="column span-18 first">
+          <img src='/images/logoban.png' alt='Ereros 2009' />
+        </div>
+        <div class="column  append-3 span-3 last">
+          <a href='http://www.crue.org' title='Conferencia de Rectores de Universidades Españoalas'><img src='/images/crue.gif' alt='Conferencia de Rectores de Universidades Españolas' /></a>
+          <a href='http://www.um.es' title='Universidad de Murcia'><img src='/images/um.jpg' alt='Universidad de Murcia' /></a>
+          <a href='http://www.um.es/vic-economia/' title='Vicerrectorado de Economía e Infraestructuras'><img src='/images/logo-vice.jpg' alt='Universidad de Murcia' /></a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" id='mainbody'>
+
+   <div class="column span-15  first">
+      <%= @content %>
+   </div>
+
+   <div class="column span-4 " id='menues'>
+     <h3>Jornadas</h3>
+     <ul>
+       <li><a href='/' title='Página de inicio'>Página de inicio</a></li>
+       <li><a href='/ponencias/index.html' title='Programa ponencias'>Programa</a></li>
+       <li><a href='/info/comite.html' title='Comité organizador'>Comité organizador</a></li>
+       <li><a href='http://symposium.um.es/event_detail/203/i-conferencia-hispano-r-project.html' title='Inscripción'>Inscripción</a></li>
+       <li><a href='/info/instrucciones.html' title='Instrucciones'>Instrucciones</a></li>
+       <li><a href='/info/localizacion.html' title='Localización RCONF2009'>Dónde y cuándo</a></li>
+       <li><a href='/info/contacto.html' title='Contacto'>Contacto</a></li>
+     </ul>
+
+     <h3>R-Project</h3>
+     <ul>
+       <li><a href="/r/index.html">R en pocas palabras</a></li>
+       <li><a href="/r/ereros.html">Comunidad R Hispana</a></li>
+       <li><a href="/r/views.html">R Views</a></li>
+    </ul>
+
+     <h3>Síguenos...</h3>
+     <ul>
+       <li><a href="https://twitter.com/rhispana" title='Síguenos en Twitter'>Twitter</a></li>
+    </ul>
+
+   </div>
+
+
+   <div class="column span-5 last" id='menues'>
+
+
+     <h3>Más información</h3>
+     <ul>
+       <li><a href="http://www.accessia.es/">Accesia</a></li>
+       <li><a href="/murcia/region.html">Regi&oacute;n de Murcia</a></li>
+       <li><a href="/organizacion/crue.html">CRUE</a></li>
+       <li><a href="/murcia/universidad.html">La Universidad de Murcia</a></li>
+       <li><a href="/organizacion/atica.html">ATICA</a></li>
+       <li><a href="/murcia/transporte.html">Transporte</a></li>
+     </ul>   
+
+     <h3>Servicios</h3>
+     <ul>
+       <li><a href='/servicios/streaming.html' title='Retransmisión en directo'>Retransmisión en directo</a></li>
+       <li><a href='/servicios/wifi.html' title='Zona Wifi/Eduroam'>Zona Wifi/Eduroam</a></li>
+     </ul>
+
+     <a href='http://www.r-project.org' title='R-Project'><img src='/images/rlogo.png' /></a>
+
+
+   </div>
+
+   <div class="column span-24 first last" id="footer">
+      © <%= Time.now.strftime('%Y') %> Universidad de Murcia <%= link_to 'ATICA', 'http://wwww.um.es/atica' %>
+   </div>
+
+</div>
+</body>
+</html>

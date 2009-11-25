@@ -1,0 +1,22 @@
+---
+title:      Universidad de Murcia
+created_at: 2009-09-24 14:28:30.827971 +02:00
+filter:
+  - erb
+  - textile
+---
+p(title). <%= h(@page.title) %>
+
+p. La Universidad de Murcia del tercer milenio tiene como eje central de su actividad la consecución de la excelencia académica y científca. Para ello, los rasgos distintivos de nuestra institución podrían resumirse en los siguientes puntos:
+
+    * Una Universidad con responsabilidad docente, con una oferta académica adecuada, práctica y flexible.
+    * Apoyo decidido a la investigación e innovación.
+    * Una institución jóven, dinámica, pujante y aún en crecimiento. El espíritu emprendedor y renovador es el que debe impregnar por completo la Universidad de Murcia.
+    * Una Universidad comprometida socialmente.
+    * Una Universidad moderna y eficaz que aplique los métodos más avanzados de gestión e información a su actividad.
+    * Una Universidad autónoma y abierta vinculada únicamente a la creación y transmisión del conocimiento.
+    * Una Universidad con proyección internacional.
+
+p. En resumen, un paso más en nuestro objetivo final de alcanzar el máximo nivel de excelencia institucional
+
+p. Más información: "http://www.um.es/":http://www.um.es/

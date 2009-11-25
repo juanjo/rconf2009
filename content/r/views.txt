@@ -1,0 +1,35 @@
+---
+title:      R Views
+created_at: 2009-09-24 13:00:07.338265 +02:00
+filter:
+  - erb
+  - textile
+---
+h1. <%= h(@page.title) %>
+
+p. Una de sus principales características es la posibilidad de desarrollar nuevas soluciones por cada investigador que lo necesite. Esto genera nuevas librerías que añaden funcionalidad al sistema. Su crecimiento es exponencial y para poder seguir el interés o utilidad de los más de 1700 que se encuentran el el repositorio oficial se han creado las llamadas views o revisiones sobre distintos tópicos, cuyo número también aumenta de forma importante:
+
+table(#views).
+|Bayesian|   Bayesian Inference|
+|ChemPhys|  Chemometrics and Computational Physics|
+|Cluster| Cluster Analysis & Finite Mixture Models|
+|Distributions| Probability Distributions|
+|Econometrics|  Computational Econometrics|
+|Environmetrics|  Analysis of Ecological and Environmental Data|
+|ExperimentalDesign|  Design of Experiments (DoE) & Analysis of Experimental Data|
+|Finance| Empirical Finance|
+|Genetics|  Statistical Genetics|
+|Graphics|  Graphic Displays & Dynamic Graphics & Graphic Devices & Visualization|
+|gR|  gRaphical Models in R|
+|HighPerformanceComputing|  High Performance and Parallel Computing|
+|MachineLearning| Machine Learning & Statistical Learning|
+|Multivariate|  Multivariate Statistics|
+|NaturalLanguageProcessing| Natural Language Processing|
+|Optimization|  Optimization and Mathematical Programming|
+|Pharmacokinetics|  Analysis of Pharmacokinetic Data|
+|Psychometrics| Psychometric Models and Methods|
+|Robust|  Robust Statistical Methods|
+|SocialSciences|  Statistics for the Social Sciences|
+|Spatial| Analysis of Spatial Data|
+|Survival|  Survival Analysis|
+|TimeSeries|  Time Series Analysis|

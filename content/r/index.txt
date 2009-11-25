@@ -1,0 +1,20 @@
+---
+title:      R-Project en pocas palabras
+created_at: 2009-09-24 12:59:55.358278 +02:00
+filter:
+  - erb
+  - textile
+---
+h1. <%= h(@page.title) %>
+
+p. R es un potente lenguaje orientado a objetos y destinado al análisis estadístico y la representación de datos. Se trata de <%= link_to 'software libre', 'http://es.wikipedia.org/wiki/Software_libre', :title => 'Wikipedia > Software Libre' %> que permite su utilización libre y gratuitamente. La comunidad científica internacional lo ha elegido como la lingua franca del análisis de datos. La tendencia de R se puede seguir desde este correo (recorta y pega el código en tu consola de R).
+
+p. La Página principal del proyecto R y asociada a ella esá <%= link_to 'CRAN', 'http://cran.es.r-project.org/', :title => 'CRAN' %> (The Comprehensive R Archive Network) donde encontramos desde documentación a los programas para su instalación.
+
+p. En este <%= link_to 'video', 'http://www.dangoldstein.com/flash/Rtutorial1/Rtutorial1.html' %>, en inglés (9:30 minutos) puede verse una introducción a R, que incluye la instalación (winXX) y primeros pasos. En este otro <%= link_to 'video', 'http://www.dangoldstein.com/flash/Rtutorial2/Rtutorial2.html' %>, en inglés (10:49 minutos), continuación del anterior, se incluyen aspectos relacionados con la entrada de datos, elaboración de modelos lineales, ... 
+
+
+h3. Enlaces de interés
+
+* <%= link_to 'R-Project', 'http://www.r-project.org/' %>
+* <%= link_to 'CRAN', 'http://cran.es.r-project.org/' %>

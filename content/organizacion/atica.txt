@@ -1,0 +1,12 @@
+---
+title:      Área de Tecnologías de la Información y las Comunicaciones Aplicadas
+created_at: 2009-09-25 10:59:53.870612 +02:00
+filter:
+  - erb
+  - textile
+---
+h1. <%= h(@page.title) %>
+
+p. El Área de Tecnologías de la Información y las Comunicaciones Aplicadas (ATICA) de la Universidad de Murcia es el Centro encargado de desarrollar, mantener y gestionar las aplicaciones de carácter general y los recursos informáticos del resto de Unidades y Departamentos de la propia Universidad, tanto en cuanto a software (aplicativos específicos económicos (JUSTO), académicos (SIVA), de personal (GESPER), investigación (GINVEST ), ordenación docente (ORMUZ), y otros varios, así como en hardware (equipos ofimáticos RENOVEs, servidores Red Local, servidores de Datos, mantenimiento de Sistemas), y estructura y servicios de Red (mantenimiento de UNIMURNET, correo electrónico, servidores Web universitarios, Atención Usuarios (DUMBO), etc).
+
+p. Más información en "http://www.um.es/atica":http://www.um.es/atica

@@ -1,0 +1,27 @@
+---
+title:      Contacto
+created_at: 2009-09-24 12:35:37.572696 +02:00
+filter:
+  - erb
+  - textile
+---
+
+h1. Contacto
+
+h2. Correo electrónico
+
+* Información general: <%= link_to 'info@ereros.org', 'mailto:info@ereros.org' %>
+* Comité científico: <%= link_to 'comite2009@ereros.org', 'mailto:comite2009@ereros.org' %>
+* Webmaster: <%= link_to 'webmaster@ereros.org', 'mailto:webmaster@ereros.org' %>
+
+h2. Dónde estamos
+
+b. UNIVERSIDAD DE MURCIA
+ATICA // Área de tecnologías de la Información y las Comunicaciones Aplicadas
+
+Edificio Ática, Campus Univ. de Espinardo
+E-30100 Murcia (SPAIN)
+Tlf: +34 968398742
+Fax: +34 968398337
+<%= link_to 'Localización Accesia', 'http://www.accessia.es/' %>
+
