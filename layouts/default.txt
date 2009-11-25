@@ -150,7 +150,8 @@ filter:
 
    <div class="column span-24 first last" id="footer">
       © <%= Time.now.strftime('%Y') %> Universidad de Murcia <%= link_to 'ATICA', 'http://wwww.um.es/atica' %><br/>
-      Website desarrollado con <a href='http://webby.rubyforge.org/' title='Webby'>Webby</a> por <a href='http://binoid.com' title='Binoid'>BINOID</a>
+      Website desarrollado con <a href='http://webby.rubyforge.org/' title='Webby'>Webby</a> por <a href='http://binoid.com' title='Binoid'>BINOID</a><br/>
+      Website Source Code <a href='http://github.com/juanjo/rconf2009' title='Conferencia R-Project Website Source Code'>github.com</a>
    </div>
 
 </div>
